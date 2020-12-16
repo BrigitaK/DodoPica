@@ -1,0 +1,71 @@
+header {
+    display: block;
+}
+    .header {
+        position: relative;
+        z-index: 15;
+    }
+        .header .container::after {
+            content: " ";
+            display: block;
+            clear: both;
+        }
+            .headerItems {
+                display: table;
+                width: 100%;
+            }
+                .headerItemsInner {
+                    display: table-row;
+                }
+                    .headerItem {
+                        display: table-cell;
+                        vertical-align: top;
+                        padding-top: 25px;
+                        padding-bottom: 5px;
+                    }
+                    .headerItemInfo {
+                        width: 72%;
+                    }
+                        .headerItemInner {
+                            display: inline-block;
+                            vertical-align: top;
+                            text-align: left;
+                        }
+                        .headerLogo {
+                            width: 250px;
+                        }
+                            .logo {
+                                position: relative;
+                                display: block;
+                                font-size: 20px;
+                                line-height: 0;
+                                font-style: normal;
+                            }
+                            .headerContacts {
+                                padding: 0px;
+                            }
+
+
+
+   /* <div class="row col-6">
+    <a class="row btn">Gauti iš Google Play</a>
+    <a class="row btn">Atsisiųskite iš App Store</a>
+</div>*/
+/*
+  <footer id="footer" class="container-fluid">
+                <div class="footerTopLeft row col-6">
+                    <div class="row top col-6">Darbas</div>
+                    <a class="bottom top row link col-6" href="https://cv.dodopizza.lt">Picerijoje</a>
+                </div>
+                <div class="footerTopRight row col-6">
+                    <div class="row col-6">Skambinkite</div>
+                    <div class="bottom  row col-6">8 635 11 555</div>
+                    <div class="bottom right row col-6">kokybe@dodopizza.lt</div>
+                </div>
+
+            <div class="footerBottom">
+                <div class="copyright">DODO PIZZA @2020</div>
+                <div class="linkOne"> Teisine informacija </div>
+            </div>
+        
+    </footer>*/

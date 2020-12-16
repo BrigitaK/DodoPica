@@ -1,0 +1,150 @@
+/*body {
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+    min-width: 1024px;
+    height: 100%;
+    overflow: auto;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    background: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+.container {
+    width: 1280px;
+    margin: 0px auto;
+}
+
+
+@media only screen and (max-width: 1439px){
+    .container {
+        width: 1024px;
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (max-width: 1279px){
+    .container {
+        width: 960px;
+        margin: 0px auto;
+    }
+}*/
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "services"
+        "send"
+        "price"
+        "contact"
+        "footer";
+}
+
+#header {
+    grid-area: header;
+}
+#services {
+     grid-area: services;
+ }
+#send{
+    grid-area: send;
+}
+#price {
+    grid-area: price;
+}
+#contact {
+    grid-area: contact;
+}
+#footer {
+    grid-area: footer;
+}
+
+/*100*/
+/*50 50*/
+/*33 33 33*/
+/*5 7*/
+.container-fluid {
+    display: grid;
+    grid-template-columns: 1fr 1280px 1fr;
+  }
+  .container-fluid > .row {
+    grid-column: 2 / 3;
+  }
+.container-hero {
+    display: grid;
+    grid-template-columns: 1fr 700px 1fr;
+  }
+  .container-hero > .row {
+    grid-column: 2 / 3;
+  }
+  
+
+.container {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    /*atskirti visus row elementus, kad nebutu sulipe vienas su kitu*/
+    padding: 40px 0;
+    gap: 30px 0;
+}
+    .container > .row {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-column: 2 / 3;
+        gap: 5px;
+    }
+
+    .container > .row > .col-1{ grid-column: span 1;}
+    .container > .row > .col-2{ grid-column: span 2;}
+    .container > .row > .col-3{ grid-column: span 3;}
+    .container > .row > .col-4{ grid-column: span 4;}
+    .container > .row > .col-5{ grid-column: span 5;}
+    .container > .row > .col-6{ grid-column: span 6;}
+    .container > .row > .col-7{ grid-column: span 7;}
+    .container > .row > .col-8{ grid-column: span 8;}
+    .container > .row > .col-9{ grid-column: span 9;}
+    .container > .row > .col-10{ grid-column: span 10;}
+    .container > .row > .col-11{ grid-column: span 11;}
+    .container > .row > .col-12{ grid-column: span 12;}
+    
+    .container-fluid > .row > .col-1{ grid-column: span 1;}
+    .container-fluid > .row > .col-2{ grid-column: span 2;}
+    .container-fluid > .row > .col-3{ grid-column: span 3;}
+    .container-fluid > .row > .col-4{ grid-column: span 4;}
+    .container-fluid > .row > .col-5{ grid-column: span 5;}
+    .container-fluid > .row > .col-6{ grid-column: span 6;}
+    .container-fluid > .row > .col-7{ grid-column: span 7;}
+    .container-fluid > .row > .col-8{ grid-column: span 8;}
+    .container-fluid > .row > .col-9{ grid-column: span 9;}
+    .container-fluid > .row > .col-10{ grid-column: span 10;}
+    .container-fluid > .row > .col-11{ grid-column: span 11;}
+    .container-fluid > .row > .col-12{ grid-column: span 12;}
+
+    @media only screen and (max-width: 1439px){
+        .container,
+        .container-fluid,
+        .container-hero   {
+            grid-template-columns: 1fr 1024px 1fr;
+        }
+        .logo, .nav {
+            grid-template-columns: 1fr 1024px 1fr;
+        }
+    }
+
+
+        @media only screen and (max-width: 1279px){
+            .container,
+            .container-fluid,
+            .container-hero   {
+                grid-template-columns: 1fr 960px 1fr;
+            }
+            .logo, .nav {
+                grid-template-columns: 1fr 960px 1fr;
+            }
+        }
