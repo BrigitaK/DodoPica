@@ -5,7 +5,6 @@ class CardList {
         this.imagesPath = params.imagesPath;
         this.itemsCount = params.itemsCount;
         this.listDOM = null;
-console.log(params);
     }
 
 

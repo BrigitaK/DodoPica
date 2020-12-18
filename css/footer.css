@@ -55,6 +55,7 @@ footer {
             padding-top: 25px;
             margin-top: -2px;
             color: rgba(255, 255, 255, 0.7);
+            position: relative;
         }
             .copyright {
                 display: inline-block;
@@ -70,6 +71,7 @@ footer {
             }
             .fab {
                 display: inline-block;
+                float: right;
                 color: #fff;
                 text-decoration: none;
                 border: 0.5px solid transparent;
@@ -81,6 +83,8 @@ footer {
                 border-radius: 5px;
                 cursor: pointer;
                 background-color: rgba(196, 196, 196, 0.2);
+                position: absolute;
+                margin-top: 20px;
                 
                 
             }

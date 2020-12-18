@@ -4,7 +4,6 @@ class Controls {
         this.bubblesDOM = null;
         this.itemsCount = params.itemsCount;
         this.updateSliderList = params.updateSliderList;
-console.log(params);
         this.currentlyActive = 0;
     }
     render = () => {

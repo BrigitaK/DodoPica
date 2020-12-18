@@ -4,6 +4,7 @@ function renderItems(data) {
     let HTML = '';
     const DOM = document.querySelector(data.selector);
     const itemsData = data.items;
+    console.log(itemsData);
     if(!DOM){
         return;
     }
@@ -13,7 +14,7 @@ function renderItems(data) {
                 <div class="row col-3">
                     <img class="image" src="./img/picos/${item.photo}" alt="pizza">
                     <h2 class="name">${item.title}</h2>
-                    <p class="description">${item.description}</p>
+                    <p id="par" class="description">${item.description}</p>
                     <div class="row">
                         <div class="price-left">${item.price}</div>
                         <div class="price-right">${item.button}</div>
