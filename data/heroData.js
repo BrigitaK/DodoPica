@@ -1,5 +1,6 @@
 const heroData = {
     selector: '.hero',
+    imagesPath: './img/hero/',
     data: [
      {
         id: 1,
@@ -15,31 +16,31 @@ const heroData = {
     },
     { 
         id: 4,
-        photo: './img/hero/hero4.jpg',
+        photo: './img/hero/hero4.jpg'
     },
     { 
         id: 5,
-        photo: './img/hero/hero5.jpg',
+        photo: './img/hero/hero5.jpg'
     },
     { 
         id: 6,
-        photo: './img/hero/hero6.jpg',
+        photo: './img/hero/hero6.jpg'
     },
     { 
         id: 7,
-        photo: './img/hero/hero7.jpg',
+        photo: './img/hero/hero7.jpg'
     },
     { 
         id: 8,
-        photo: './img/hero/hero8.jpg',
+        photo: './img/hero/hero8.jpg'
     },
     { 
         id: 9,
-        photo: './img/hero/hero9.jpg',
+        photo: './img/hero/hero9.jpg'
     },
     { 
         id: 10,
-        photo: './img/hero/hero10.jpg',
+        photo: './img/hero/hero10.jpg'
     }
 ]
 };

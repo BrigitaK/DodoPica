@@ -21,3 +21,13 @@ import { drinksItems } from '../data/drinksItems.js';
 import { renderDrinksItems } from './components/renderDrinksItems.js';
 //items logic
 renderDrinksItems(drinksItems);
+
+//hero
+import heroData from "../data/heroData.js";
+
+
+//rendering function
+import { Hero } from "./components/Hero.js";
+
+//hero
+new Hero(heroData);
