@@ -159,5 +159,5 @@
       
       .controls > .bubble:hover,
       .controls > .bubble.active {
-        background-color: red;
+        background-color: rgb(197, 202, 206);
       }
