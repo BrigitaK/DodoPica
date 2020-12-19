@@ -20,8 +20,7 @@ header {
                     .headerItem {
                         display: table-cell;
                         vertical-align: top;
-                        padding-top: 25px;
-                        padding-bottom: 5px;
+                        padding: 20px 0;
                     }
                     .headerItemInfo {
                         width: 72%;
@@ -30,42 +29,102 @@ header {
                             display: inline-block;
                             vertical-align: top;
                             text-align: left;
+                            margin-left: 40px;
+                        }
+                        .headerItemInner span {
+                            color: red;
+                        }
+                        .headerItemInner .men-title {
+                            font-size: 18px;
+                            line-height: 1.2;
+                            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                            font-weight: 500;
+                        }
+                        .men-delivery-time {
+                            margin-top: 1px;
+                            font-size: 15px;
+                            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                            font-weight: 500;
+                        }
+                        .men-delivery-time .dot {
+
+                            display: inline-block;
+                            height: 3px;
+                            width: 3px;
+                            margin: 0 3px;
+                            margin-bottom: 5px;
+                            background-color: #000;
+                            border-radius: 50%;
+                        }
+                        .men-delivery-time .checked {
+                            color: rgb(255, 210, 0);
+                            margin-left: 5px;
+                          }
+                        .men-call {
+                            display: inline-block;
+                            vertical-align: top;
+                            padding-left: 0px;
+                            color: rgb(153, 153, 153);
+                            font-size: 15px;
+                            line-height: 1;
+                        }
+                        .men-number {
+                            font-size: 18px;
+                            line-height: 1.2;
+                            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                            font-weight: 500;
                         }
                         .headerLogo {
                             width: 250px;
+                            margin-left: 0;
+                            margin-top: -3px;
                         }
-                            .logo {
-                                position: relative;
-                                display: block;
-                                font-size: 20px;
-                                line-height: 0;
-                                font-style: normal;
-                            }
-                            .headerContacts {
-                                padding: 0px;
-                            }
+                        .men-btn {
+                            display: inline-block;
+                            float: right;
+                            background-color: #f3f3f7;
+                            padding: 5px 20px;
+                            color: rgb(92, 99, 112);
+                            border-radius: 14px;
+                            font-size: 14px;
+                        }
+                        .men-btn:hover {
+                            color: #000;
+                        }
 
 
 
-   /* <div class="row col-6">
-    <a class="row btn">Gauti iš Google Play</a>
-    <a class="row btn">Atsisiųskite iš App Store</a>
-</div>*/
-/*
-  <footer id="footer" class="container-fluid">
-                <div class="footerTopLeft row col-6">
-                    <div class="row top col-6">Darbas</div>
-                    <a class="bottom top row link col-6" href="https://cv.dodopizza.lt">Picerijoje</a>
-                </div>
-                <div class="footerTopRight row col-6">
-                    <div class="row col-6">Skambinkite</div>
-                    <div class="bottom  row col-6">8 635 11 555</div>
-                    <div class="bottom right row col-6">kokybe@dodopizza.lt</div>
-                </div>
-
-            <div class="footerBottom">
-                <div class="copyright">DODO PIZZA @2020</div>
-                <div class="linkOne"> Teisine informacija </div>
-            </div>
-        
-    </footer>*/
+                        .nav{
+                            margin-bottom: 40px;
+                        }
+                        .nav-links{
+                            display: inline-block;
+                            float: left;
+                        }
+                        .nav-links a{
+                            text-decoration: none;
+                            font-size: 14px;
+                            color: #000;
+                            margin-left: 10px;
+                        }
+                        .nav-links a:first-of-type{
+                            margin-left: 0;
+                        }
+                        .nav-links a:hover {
+                            color: rgb(255, 105, 0);
+                        }
+                        .nav-btn{
+                            display: inline-block;
+                            float: right;
+                            background-color: rgb(255, 105, 0);
+                            height: 40px;
+                            padding: 8px 20px;
+                            font-size: 16px;
+                            line-height: 24px;
+                            border-radius: 20px;
+                            margin-top: -12px;
+                        }
+                        .nav-btn a{
+                            text-decoration: none;
+                            color: #fff;
+                        }
