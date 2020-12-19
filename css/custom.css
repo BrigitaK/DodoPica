@@ -2,15 +2,16 @@
     gap: 30px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
 }
     .item {
         display: flex;
         flex-direction: column;
-        flex-grow: 4;
-        width: 205px;
+        width: 233px;
         transition: border 0.5s, transform 0.5s;
         justify-content:space-between;
+    }
+    .item:last-child {
+        justify-content: none !important;
     }
     .title {
         display: flex;
@@ -228,4 +229,10 @@
       .controls > .bubble:hover,
       .controls > .bubble.active {
         background-color: rgb(197, 202, 206);
+      }
+
+      @media only screen and (max-width: 1279px){
+          .item {
+                width: 217px;
+          }
       }

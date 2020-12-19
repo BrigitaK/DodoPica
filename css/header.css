@@ -88,6 +88,7 @@ header {
                             border-radius: 14px;
                             font-size: 14px;
                             margin-top: -40px;
+                            cursor: pointer;
                         }
                         .men-btn:hover {
                             color: #000;
