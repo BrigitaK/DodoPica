@@ -83,10 +83,11 @@ header {
                             display: inline-block;
                             float: right;
                             background-color: #f3f3f7;
-                            padding: 5px 20px;
+                            padding: 7px 15px;
                             color: rgb(92, 99, 112);
                             border-radius: 14px;
                             font-size: 14px;
+                            margin-top: -40px;
                         }
                         .men-btn:hover {
                             color: #000;
