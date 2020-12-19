@@ -1,0 +1,62 @@
+.cv-left{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+    .cv-left img {
+        width: 250px;
+        margin-top: 40px;
+    }
+    .cv-left h1 {
+        margin: 35px 0;
+        font-size: 54px;
+        text-transform: uppercase;
+        letter-spacing: 3.2px;
+        line-height: 56px;
+    }
+    .cv-left p {
+        width: 90%;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 50px;
+    }
+    .choose select {
+        width: 90%;
+        cursor: pointer;
+        height: 44px;
+        color: black;
+        border: 1px solid #aaa;
+        border-radius: 6px;
+        outline: none;
+        padding: 0 12px;
+        margin-bottom: 25px;
+    }
+    .choose select:hover {
+        border: 1px solid  rgb(255, 105, 0);;
+    }
+    .choose option {
+        margin-top: 60px;
+    }
+    .choose2 input {
+        width: 45%;
+        cursor: pointer;
+        height: 44px;
+        color: black;
+        border: 1px solid #aaa;
+        border-radius: 6px;
+        outline: none;
+        padding: 0 12px;
+        margin-bottom: 25px;
+    }
+    .choose2 div {
+        width: 45%;    
+        font-size: 14px;
+        opacity: 0.5;
+        display: inline-block;
+        line-height: 15px;
+    }
+.cv-right {
+    display: inline-block;
+    float: right;
+    width: 30%;
+}
