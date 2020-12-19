@@ -15,17 +15,21 @@
             font-weight: 500;
         }
         .adress-input {
-            display: inline-block;
-            float: left;
-            width: 400px;
             line-height: 41px;
-            display: inline-block;
             margin-right: 15px;
-            padding: 0px 37px !important;
+            margin-top: 40px;
+            width: 400px;
+            cursor: pointer;
+            height: 40px;
+            color: black;
+            border: 1px solid #aaa;
+            border-radius: 6px;
+            outline: none;
+            padding: 0 12px;
+            margin-bottom: 10px;
         }
         .adress-map {
             display: inline-block;
-            float: left;
             border: 1px solid transparent;
             border-radius: 20px;
             background-color: #fdefe6;
@@ -40,18 +44,38 @@
             line-height: 20px;
             margin-right: 20px;
         }
-
-        }
         .adress-check {
             display: inline-block;
             float: left;
             width: 75%;
         }
-        .adress-check div{
-            display: inline-block;
-            float: left;
-            margin-top: 20px;
-        }
+            .adress-check-1, .adress-check-2 {
+                display: inline-block;
+                float: left;
+            }
+            .adress-check-1 div {
+                display: inline-block;
+                float: right;
+                margin-right: 10px;
+            }
+            .adress-check-2 div {
+                display: inline-block;
+                float: right;
+            }
+            .adress-check-1 .checkbox, 
+            .adress-check-2 .checkbox  {
+                display: inline-block;
+                float: left;
+                height: 20px;
+                width: 20px;
+                margin: 0 3px;
+                margin-bottom: 5px;
+                background: rgb(255, 255, 255);
+                border: 1px solid rgb(211, 213, 222);
+                cursor: pointer;
+                border-radius: 3px;
+            }
+            
 
 
     .adress-top-right {
