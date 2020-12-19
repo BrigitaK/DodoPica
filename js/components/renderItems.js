@@ -11,10 +11,12 @@ function renderItems(data) {
     for (let i = 0; i < itemsData.length; i++) {
         const item = itemsData[i];
         HTML += `
-                <div class="row col-3">
-                    <img class="image" src="./img/picos/${item.photo}" alt="pizza">
-                    <h2 class="name">${item.title}</h2>
-                    <p id="par" class="description">${item.description}</p>
+                <div class="item">
+                    <div class="item-top">
+                        <img class="image" src="./img/picos/${item.photo}" alt="pizza">
+                        <h2 class="name">${item.title}</h2>
+                        <p id="par" class="description">${item.description}</p>
+                    </div>
                     <div class="row">
                         <div class="price-left">${item.price}</div>
                         <div class="price-right">${item.button}</div>
@@ -24,7 +26,7 @@ function renderItems(data) {
     // post logic validation
 
     //output
-    DOM.innerHTML = `<h1 class="title row col-12">Picos</h1>${HTML}`;
+    DOM.innerHTML = `<h1 class="title">Picos</h1>${HTML}`;
 }
 
 export { renderItems }

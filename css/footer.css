@@ -6,6 +6,7 @@ footer {
     .footerTop{
         display: inline-block;
         float: left;
+        margin-top: 30px;
 
     }
         .footerTopLeft {
@@ -32,13 +33,15 @@ footer {
             float: right;
             text-align: right;
         }
+    
         .icon1 {
-            float: left;
+            float: right;
             border: 1px solid grey;
             padding: 7px 9px 7px 7px;
             background-color: #000;
             border-radius: 6px;
             text-decoration: none;
+            margin-left: 15px;
         }
         .icon1 > img {
             float: left;
@@ -76,7 +79,7 @@ footer {
                 color: rgb(153, 153, 153);
                 font-size: 16px;
                 margin-bottom: 10px;
-                margin-top: 25px;
+                margin-top: 70px;
             }
             .number {
                 font-size: 25px;
@@ -104,6 +107,7 @@ footer {
             margin-top: -2px;
             color: rgba(255, 255, 255, 0.7);
             position: relative;
+            margin-bottom: 20px;
         }
             .copyright {
                 display: inline-block;

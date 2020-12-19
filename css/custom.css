@@ -1,13 +1,26 @@
-.pizza {
-
+.pizza, .snacks, .desserts, .drinks{
+    gap: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
+    .item {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 4;
+        width: 205px;
+        transition: border 0.5s, transform 0.5s;
+        justify-content:space-between;
+    }
     .title {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
         font-weight: 500;
         font-size: 24px;
-        margin: 32px 0px;
+        margin: 60px 0 20px;
     }
     .image {
-        width: 100%;
         position: relative;
         top: 0px;
         margin: 0px;
@@ -23,20 +36,27 @@
         line-height: 24px;
         font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         font-weight: 500;
+        text-align: left;
     }
     .description {
-        color:  #767c8f;
+        color: rgb(115, 121, 140);
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
+        text-align: left;
+        padding: 0;
+        margin: 15px 0;
+        font-family: "system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        
     }
     .price-left {
         display: inline-block;
         float: left;
-        width: 50%;
+        width: 40%;
         font-size: 16px;
         font-weight: 500;
         line-height: 42px;
+        text-align: left;
     }
     .price-right {
         display: inline-block;
@@ -50,10 +70,10 @@
         font-weight: 500;
         cursor: pointer;
         min-width: 120px;
-        height: 40px;
+        height: 37px;
         padding: 8px 20px;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 20px;
     }
     .price-right:hover {
         background-color: #f9d1b3;
@@ -64,6 +84,10 @@
     line-height: 1.4;
 }
     .deliveryColumn {
+
+        display: inline-block;
+        float: left;
+        width: 35%;
         margin-right: 4%;
         font-weight: 500;
         font-size: 16px;
@@ -71,9 +95,17 @@
         margin-top: 20px;
     }
     .deliveryColumnRight {
+
+        display: inline-block;
         float: right;
+        width: 22%;
+        float: right;
+        margin-bottom: 20px;
     }
     .deliveryTittle {
+        display: inline-block;
+        float: left;
+        width: 100%;
         font-weight: 500;
         font-size: 24px;
         margin: 32px 0px;
@@ -92,7 +124,7 @@
         text-transform: uppercase;
         margin: 0px 0px 5px;
     }
-    p {
+    .deliveryColumn p {
         font-weight: 500;
         margin-top: 20px;
         margin-bottom: 20px;

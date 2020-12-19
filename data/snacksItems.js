@@ -12,7 +12,7 @@ const snacksItems = {
         photo: 'cezario-salotos.jpg',
         title: 'Cezario salotos',
         description: 'Vištiena, vynuoginiai pomidorai, gūžinės salotos Iceberg, skrebučiai, parmezano sūris, bazilikai ir cezario padažas',
-        price: 'ę,50 €',
+        price: '3,50 €',
         button: 'Į krepšelį'
     },
     {
