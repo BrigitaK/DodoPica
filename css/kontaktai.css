@@ -1,0 +1,117 @@
+.adress-top {
+    padding-top: 44px;
+}
+    .adress-top-left {
+        display: inline-block;
+        float: left;
+        width: 75%;
+    }
+        .adress-title {
+            display: inline-block;
+            margin: 0px;
+            color: rgb(0, 0, 0);
+            font-size: 36px;
+            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: 500;
+        }
+        .adress-input {
+            display: inline-block;
+            float: left;
+            width: 400px;
+            line-height: 41px;
+            display: inline-block;
+            margin-right: 15px;
+            padding: 0px 37px !important;
+        }
+        .adress-map {
+            display: inline-block;
+            float: left;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            background-color: #fdefe6;
+            text-align: center;
+            color: rgb(209, 87, 0);
+            font-weight: 500;
+            cursor: pointer;
+            min-width: 120px;
+            height: 37px;
+            padding: 8px 20px;
+            font-size: 16px;
+            line-height: 20px;
+            margin-right: 20px;
+        }
+
+        }
+        .adress-check {
+            display: inline-block;
+            float: left;
+            width: 75%;
+        }
+        .adress-check div{
+            display: inline-block;
+            float: left;
+            margin-top: 20px;
+        }
+
+
+    .adress-top-right {
+        display: inline-block;
+        float: right;
+        width: 25%;
+        padding: 16px;
+        background-color: rgb(247, 248, 248);
+        border-radius: 8px;
+    }
+        .adress-phone {
+            font-size: 14px;
+            line-height: 17px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: rgb(115, 121, 140);
+        }
+        .adress-number {
+            font-size: 15px;
+            line-height: 19px;
+            color: rgb(0, 0, 0);
+            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            margin-bottom: 30px;
+            margin-top: 5px;
+        }
+            .adress-number:hover {
+                color: rgb(209, 87, 0);
+            }
+        .adress-question {
+            font-size: 14px;
+            line-height: 17px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: rgb(115, 121, 140);
+        }
+        .adress-email {
+            font-size: 15px;
+            line-height: 19px;
+            color: rgb(0, 0, 0);
+            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+.adress-bottom {
+    display: inline-block;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+    .adress-bottom-items {
+
+    }
+        .adress-bottom-item {
+            display: inline-block;
+            float: left;
+            width: 25%;
+        }
