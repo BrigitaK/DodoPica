@@ -114,4 +114,34 @@
             display: inline-block;
             float: left;
             width: 25%;
+            padding-left: 20px;
         }
+            .adress-bottom-item h3 {
+                font-size: 20px;
+                line-height: 24px;
+                color: rgb(0, 0, 0);
+                font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                font-weight: 400;
+                text-decoration: none;
+                cursor: pointer;
+                margin-bottom: 5px;
+            }
+            .adress-bottom-item h5 {
+                font-size: 15px;
+                line-height: 21px;
+                margin-top: 15px;
+                margin-bottom: 11px;
+                font-weight: 400;
+            }
+            .adress-bottom-par {
+                display: block;
+                color: rgb(0, 0, 0);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                font-size: 15px;
+                line-height: 21px;
+                margin-top: 15px;
+                margin-bottom: 11px;
+            }
+            .adress-bottom-par p:first-of-type{
+                margin: 5px 0;
+            }

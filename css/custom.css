@@ -6,7 +6,7 @@
     .item {
         display: flex;
         flex-direction: column;
-        width: 233px;
+        width: 292px;
         transition: border 0.5s, transform 0.5s;
         justify-content:space-between;
     }
@@ -23,6 +23,7 @@
     }
     .image {
         position: relative;
+        width: 100%;
         top: 0px;
         margin: 0px;
         border-radius: 12px;
@@ -132,7 +133,6 @@
     }
     .map-parent {
         overflow: hidden;
-        width: 240px;
         height: 240px;
     }
     .map {
@@ -231,6 +231,12 @@
         background-color: rgb(197, 202, 206);
       }
 
+
+      @media only screen and (max-width: 1439px){
+        .item {
+              width: 233px;
+        }
+    }
       @media only screen and (max-width: 1279px){
           .item {
                 width: 217px;
