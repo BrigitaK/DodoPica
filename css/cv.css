@@ -1,15 +1,22 @@
+.cv {
+    background: radial-gradient(500.79px at 70.54% 39.03%, #3B3029 0%, #0A0A08 100%);
+}
 .cv-left{
     display: inline-block;
     float: left;
-    width: 50%;
+    width: 500px;
 }
     .cv-left img {
         width: 250px;
         margin-top: 40px;
     }
     .cv-left h1 {
+        width: 700px;
         margin: 35px 0;
         font-size: 54px;
+        position: absolute;
+        color: #fff;
+        z-index: 6;
         text-transform: uppercase;
         letter-spacing: 3.2px;
         line-height: 56px;
@@ -19,6 +26,8 @@
         font-size: 16px;
         line-height: 1.4;
         margin-bottom: 50px;
+        margin-top: 180px;
+        color: #fff;
     }
     .choose select {
         width: 90%;
@@ -32,7 +41,7 @@
         margin-bottom: 25px;
     }
     .choose select:hover {
-        border: 1px solid  rgb(255, 105, 0);;
+        border: 1px solid  rgb(255, 105, 0);
     }
     .choose option {
         margin-top: 60px;
@@ -54,9 +63,37 @@
         opacity: 0.5;
         display: inline-block;
         line-height: 15px;
+        color: #fff;
     }
 .cv-right {
     display: inline-block;
     float: right;
-    width: 30%;
+    position: relative;
+    right: 60px;
+    width: 750px;
+    top: 180px;
 }
+    .cv-right img {
+        width: 100%;
+    }
+    .cv-check {
+        display: inline-block;
+        float: left;
+        color: #fff;
+        margin-top: -165px;
+    }
+    .cv-btn {
+        display: inline-block;
+        float: left;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        background-color: #ee5330;
+        height: 70px;
+        margin-bottom: 100px;
+        border-radius: 10px;
+        font-size: 20px;
+        line-height: 70px;
+
+         
+    }
