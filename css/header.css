@@ -130,3 +130,63 @@ header {
                             text-decoration: none;
                             color: #fff;
                         }
+
+                        .hed-choose-city {
+                            display: none;
+                            float: left;
+                            position: absolute;
+                            background-color: #fff;
+                            box-shadow: 0 2px 8px #0002;
+                            z-index: 3;
+                            width: 1020px;
+                            height: 385px;
+                            margin-top: -60px;
+                            border-radius: 20px;
+                            margin-left: -20px;
+                            margin: -5px -15px;line-height: 1.4;line-height: 1.4;
+                            text-align: center;
+
+                        }
+                        .hed-choose-city-title {
+                            padding: 44px 46px 29px;
+                            background: rgb(247, 248, 248);
+                            border-radius: 20px 20px 0px 0px;
+                            border-bottom: 1px solid rgb(226, 226, 233);
+                            height: 125px;
+                            font-size: 36px;
+                            font-weight: 500;
+                            line-height: 1.4;
+                        }
+                        .hed-choose-city-all {
+                            padding: 50px;
+                        }
+                        .hed-choose-city1, .hed-choose-city2 {
+                            font-size: 30px;
+                            margin-bottom: 35px;
+                            display: block;
+                            max-width: 100%;
+                        }   
+                            .close {
+                                position: absolute;
+                                cursor: pointer;
+                                top: 1%;
+                                right: -4%;
+                                width: 32px;
+                                height: 32px;
+                                opacity: 1;
+                              }
+                              .close:hover {
+                              }
+                              .close:before, .close:after {
+                                position: absolute;
+                                left: 15px;
+                                content: ' ';
+                                height: 33px;
+                                width: 2px;
+                                background-color: #000;
+                              }
+                              .close:before {
+                                transform: rotate(45deg);
+                              }
+                              .close:after {
+                                transform: rotate(-45deg);
