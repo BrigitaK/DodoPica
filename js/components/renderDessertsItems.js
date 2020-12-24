@@ -11,16 +11,16 @@ function renderDessertsItems(data) {
         const item = itemsData[i];
         HTML += `
         <div class="item">
-        <div class="item-top">
-            <img class="image" src="./img/desertai/${item.photo}" alt="desserts">
-            <h2 class="name">${item.title}</h2>
-            <p id="par" class="description">${item.description}</p>
-        </div>
-        <div class="row">
-            <div class="price-left">${item.price}</div>
-            <div class="price-right">${item.button}</div>
-        </div>
-    </div>`;
+            <div class="item-top">
+                <img class="image" src="./img/desertai/${item.photo}" alt="desserts">
+                <h2 class="name">${item.title}</h2>
+                <p id="par" class="description">${item.description}</p>
+            </div>
+            <div class="row">
+                <div class="price-left">${item.price}</div>
+                <div class="price-right">${item.button}</div>
+            </div>
+        </div>`;
     }
     // post logic validation
 
