@@ -18,8 +18,12 @@ function renderItems(data) {
                         <p id="par" class="description">${item.description}</p>
                     </div>
                     <div class="row">
-                        <div class="price-left">${item.price}</div>
-                        <div class="price-right">${item.button}</div>
+                        <div class="price-left">
+                            ${item.price}
+                        </div>
+                        <div class="price-right">
+                            ${item.button}
+                        </div>
                     </div>
                 </div>`;
     }

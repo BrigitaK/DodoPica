@@ -16,11 +16,11 @@ class CardList {
             let photo = item.photo;
 
             HTML += `<div class="item row col-12">
-                    <img src="${item.photo}" alt="Photo">
+                        <img src="${item.photo}" alt="Photo">
                     </div>`;
         }
         return `<div class="list row col-12" style="margin-left:0;">
-                ${HTML}
+                    ${HTML}
                 </div>`;
     }
     shiftList = (diff) => {
