@@ -12,7 +12,7 @@ class Controls {
             otherBubblesHTML += `<div class="bubble" data-index="${i}"></div>`;
         }
         return `<div class="controls rol col-12">
-                <div class="bubble active" data-index="0"></div>${otherBubblesHTML}
+                    <div class="bubble active" data-index="0"></div>${otherBubblesHTML}
                 </div>`;
     }
 
