@@ -148,7 +148,7 @@ body {
                 grid-template-columns: 1fr 960px 1fr;
             }
         }
-        @media only screen and (max-width: 1600px){
+        @media only screen and (max-width: 1060px){
             .container,
             .container-fluid,
             .container-hero   {
@@ -163,13 +163,13 @@ body {
             .container,
             .container-fluid,
             .container-hero   {
-                grid-template-columns: 1fr 760px 1fr;
+                grid-template-columns: 1fr 660px 1fr;
             }
             .logo, .nav {
-                grid-template-columns: 1fr 760px 1fr;
+                grid-template-columns: 1fr 660px 1fr;
             }
         }
-        @media only screen and (max-width: 600px){
+        @media only screen and (max-width: 700px){
             .container,
             .container-fluid,
             .container-hero   {
@@ -177,5 +177,15 @@ body {
             }
             .logo, .nav {
                 grid-template-columns: 1fr 560px 1fr;
+            }
+        }
+        @media only screen and (max-width: 600px){
+            .container,
+            .container-fluid,
+            .container-hero   {
+                grid-template-columns: 1fr 460px 1fr;
+            }
+            .logo, .nav {
+                grid-template-columns: 1fr 460px 1fr;
             }
         }
