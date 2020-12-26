@@ -148,3 +148,34 @@ body {
                 grid-template-columns: 1fr 960px 1fr;
             }
         }
+        @media only screen and (max-width: 1600px){
+            .container,
+            .container-fluid,
+            .container-hero   {
+                grid-template-columns: 1fr 860px 1fr;
+            }
+            .logo, .nav {
+                grid-template-columns: 1fr 860px 1fr;
+            }
+        }
+    
+        @media only screen and (max-width: 900px){
+            .container,
+            .container-fluid,
+            .container-hero   {
+                grid-template-columns: 1fr 760px 1fr;
+            }
+            .logo, .nav {
+                grid-template-columns: 1fr 760px 1fr;
+            }
+        }
+        @media only screen and (max-width: 600px){
+            .container,
+            .container-fluid,
+            .container-hero   {
+                grid-template-columns: 1fr 560px 1fr;
+            }
+            .logo, .nav {
+                grid-template-columns: 1fr 560px 1fr;
+            }
+        }
