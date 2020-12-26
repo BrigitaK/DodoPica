@@ -1,6 +1,94 @@
 header {
     display: block;
+    background-color: #fff;
 }
+.mob-menu-ico-h {
+    display: none;
+    background: #fff;
+    float: right;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .mob-menu-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding: 10px;
+    float: right;
+    cursor: pointer;
+    color: #000;
+    margin-top: -50px;
+  }
+  
+  .menu-ico-str, .menu-ico-str1 {
+    display: block;
+    float: left;
+    position: relative;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: -2px;
+  }
+
+  
+  .new .menu-ico-str {
+    transform: rotate(-45deg) translate(-9px, 6px);
+    z-index: 1;
+    
+  }
+  
+  .new .menu-ico-str1 {
+    transform: rotate(45deg) translate(-8px, -8px);
+      margin-top: 17px;
+    z-index: 2;
+  }
+  .menu-mob-h a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .show > .menu-mob-h {
+    display: block;
+    background: #fff;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    float: left;
+    margin-top: -46px;
+    box-shadow: transparent;
+  }
+  
+  .show > .menu-mob-h > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+    line-height: 40px;
+    padding-left: 20px;
+    border-top: 1px solid rgb(243, 239, 239);
+    text-align: center;
+    z-index: 100;
+    /* outline: 5px auto -webkit-focus-ring-color;*/
+  }
+  .menu-mob-h {
+    display: none;
+    background: #c4c4c4;
+    position: relative;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  .show > .menu-mob-h > a:last-of-type {
+    margin-bottom: -10px;
+  }
     .header {
         position: relative;
         z-index: 15;
@@ -125,12 +213,17 @@ header {
                             line-height: 24px;
                             border-radius: 20px;
                             margin-top: -12px;
+                            position: relative;
+                            z-index: 16;
                         }
                         .nav-btn a{
                             text-decoration: none;
                             color: #fff;
                         }
-
+                        .vilnius {
+                            cursor: pointer;
+                        }
+    
                         .hed-choose-city {
                             display: none;
                             float: left;
@@ -142,11 +235,14 @@ header {
                             height: 385px;
                             margin-top: -60px;
                             border-radius: 20px;
-                            margin-left: -20px;
-                            margin: -5px -15px;line-height: 1.4;line-height: 1.4;
+                            margin: -5px 0;
+                            line-height: 1.4;
                             text-align: center;
-
                         }
+                        .add .hed-choose-city{
+                            display: block;
+                        }
+                    
                         .hed-choose-city-title {
                             padding: 44px 46px 29px;
                             background: rgb(247, 248, 248);
@@ -190,3 +286,46 @@ header {
                               }
                               .close:after {
                                 transform: rotate(-45deg);
+                              }
+                              .star {}
+                              .star-left {
+
+                              }
+                              .star-title {
+
+                              }
+                              .star-title-sm {
+
+                              }
+                              .star-rigth {
+
+                              }
+                              .star p {
+
+                              }
+
+                                @media only screen and (max-width: 1060px){
+                                    .headerItemInner .men-title {
+                                        font-size: 15px;
+                                    }
+                                    .men-number {
+                                        font-size: 15px;
+                                    }
+                                }
+
+                                @media only screen and (max-width: 700px){
+                                    .headerItemInner .men-title, .men-number,
+                                    .men-delivery-time, .men-btn {
+                                        display:none;
+                                    }
+                                    header .mob-menu-ico-h {
+                                        display: block;
+                                    }
+                                    .menu-main-h {
+                                        display: none;
+                                        height: auto;
+                                      }
+                                      .mob-menu-ico-h {
+                                        display: block;
+                                      }
+                                }

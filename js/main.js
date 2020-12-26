@@ -1,3 +1,8 @@
+//header
+import { renderHeaderEvents } from '../js/components/renderHeaderEvents.js';
+
+renderHeaderEvents(header);
+
 //import items data
 import { itemsData } from '../data/data.js';
 import { renderItems } from './components/renderItems.js';

@@ -245,15 +245,50 @@
         .item {
               width: 265px;
         }
+        .delivery .maps-zona {
+            margin-left: 33px;
     }
     @media only screen and (max-width: 900px){
         .item {
-              width: 315px;
+              width: 200px;
         }
+        .headerItemsInner .headerLogo {
+            width: 170px;
+        }
+        .headerLogo img {
+            width: 200px;
+            margin-top: 5px;
+        }
+        .headerItemInner {
+            margin-left: 0;
+        }
+        .headerItemInner .men-call, .men-number {
+            display: none;
+        }
+        footer .footerBottom .fa {
+            left: 95%;
+        }
+        .delivery .maps-zona {
+            margin-left: 10px;
     }
     @media only screen and (max-width: 700px){
         .item {
               width: 265px;
+        }
+        .footerTopRight .call, .number, .email {
+            display: none;
+        }
+        .footerTopRight .icon1 {
+            margin-left: 10px;
+        }
+        .footerBottom .copyright, .linkOne, .linkTwo {
+            font-size: 12px;
+        }
+        .delivery {
+            display: none;
+        }
+        footer {
+            margin-top: 50px;
         }
     }
     @media only screen and (max-width: 600px){
@@ -292,6 +327,9 @@
         }
         .delivery {
             margin-top: 210px;
+        }
+        footer {
+            margin-top: 250px;
         }
     }
 
