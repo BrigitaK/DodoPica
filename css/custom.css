@@ -393,6 +393,8 @@
     display: inline-block;
     font-size: 16px;
     line-height: 24px;
+    text-decoration: none;
+    color: rgb(92, 99, 112);
 }
 .cart-svg1 {
     display: inline-block;
@@ -402,7 +404,7 @@
     top: calc(50% - 13px);
     height: 24px;
 }
-.cart-svg1:hover {
+.cart-btn-left:hover {
     color:black;
 }
 .cart-svg2 {
