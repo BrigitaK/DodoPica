@@ -383,7 +383,7 @@ header {
 .header-bubbles:last-of-type {
     margin-right: 60px;
 }
-.bubble {
+.header-bubbles  .bubble {
     display: inline-block;
     float: right;
     vertical-align: top;
