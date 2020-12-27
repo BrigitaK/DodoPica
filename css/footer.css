@@ -164,3 +164,9 @@ footer {
             .footerBottom .fa:hover {
                 background-color: rgba(196, 196, 196, 0.579);
             }
+            .cart-call {
+                margin-top: 0;
+            }
+            .cart-number {
+                margin-bottom: 0;
+            }

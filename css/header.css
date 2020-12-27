@@ -357,3 +357,82 @@ header {
                                         display: block;
                                       }
                                 }
+
+
+
+/* cart.html header*/   
+.header-cart {
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.header-right-numbers {
+    display: inline-block;
+    float: right;
+
+}
+.header-right-number  {
+    display: inline-block;
+    position: relative;
+    color: rgb(175, 175, 175);
+
+}
+.header-bubbles {
+    display: inline-block;
+    margin-right: 110px;
+}
+.header-bubbles:last-of-type {
+    margin-right: 60px;
+}
+.bubble {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 4px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 50%;
+}
+.header-list {
+    display: inline-block;
+    float: right;
+    padding-top: 3px;
+    font-size: 14px;
+    color: rgb(175, 175, 175);
+}
+.header-right-name1 {
+    display: inline-block;
+    padding-right: 35px;
+    color: #000;
+}
+.header-right-name2 {
+    display: inline-block;
+    padding-left: 50px;
+    
+}
+.header-right-name3 {
+    display: inline-block;
+    padding-left: 55px;
+    padding-right: 25px;
+}
+
+.one { 
+    margin-right: -110px;
+    bottom: -7px;
+    right: -20px;
+}
+.two { 
+margin-right: -110px;
+bottom: -7px;
+right: -20px;
+}
+.three {
+    bottom: -7px;
+    right: -20px;
+}
+.hed-lines {
+    font-size: 12px;
+    right: -16px;
+    position: relative;
+}
