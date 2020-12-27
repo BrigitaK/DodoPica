@@ -307,6 +307,126 @@
     text-align: center;
 }
 
+.cart-promo {
+    display: inline-block;
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgb(0, 0, 0);
+    margin: 0px 0px 16px;
+}
+.cart-promo-item {
+    margin-bottom: 60px;
+}
+.cart-promo-input {
+    display: inline-block;
+    float: left;
+    width: 180px;
+    height: 30px;
+    padding-top: 1px;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    border: 1px solid rgb(186, 191, 208);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    text-align: center;
+}
+.cart-promo-btn {
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-left: -1px;
+    min-width: 96px;
+    font-size: 14px;
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(255, 105, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.cart-order {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 36px;
+    margin-top: 20px;
+}
+.cart-order-title {
+    display: inline-block;
+    float: right;
+    font-size: 21px;
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+    text-align: right;
+    padding: 0px 15px;
+}
+.cart-order-price {
+    display: inline-block;
+    float: right;
+    font-size: 26px;
+    color: rgb(255, 105, 0);
+    text-align: left;
+    margin-top: -3px;
+}
+.cart-btns-f {
+    display: inline-block;
+    float: left;
+    margin-bottom: 128px;
+    width: 100%;
+}
+.cart-btns {
+    display: inline-block;
+    float: left;
+    padding: 12px 44px 12px 38px;
+    background-color: rgb(243, 243, 247);
+    color: rgb(92, 99, 112);
+    border-radius: 25px;
+}
+.cart-btn-left {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+}
+.cart-svg1 {
+    display: inline-block;
+    float: left;
+    transform: rotate(180deg);
+    right: 8px;
+    top: calc(50% - 13px);
+    height: 24px;
+}
+.cart-svg1:hover {
+    color:black;
+}
+.cart-svg2 {
+    display: inline-block;
+    float:right;
+    right: 8px;
+    top: calc(50% - 13px);
+    height: 24px;
+}
+
+.cart-btns1 {
+    background-color: rgb(226, 226, 233);
+    color: rgb(171, 173, 186);
+    display: inline-block;
+    float: right;
+    padding: 12px 44px 12px 38px;
+    border-radius: 25px;
+}
+.cart-btn-right {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 
       @media only screen and (max-width: 1439px){
         .item {
