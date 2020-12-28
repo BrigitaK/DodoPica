@@ -290,9 +290,9 @@ header {
                               }
                               .basket{
                                   position: absolute;
+                                z-index: 10;
                                   display: inline-block;
                                 float: right;
-                                  z-index: 20;
                                   background-color: #fff;
                                   height: 400px;
                                   width: 350px;
