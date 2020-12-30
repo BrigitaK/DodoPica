@@ -43,6 +43,15 @@ burgerDOM.addEventListener('click', () => {
             miestasDOM.classList.remove('add');
     });
 
+    const btnHover = document.querySelector('body .nav-btn');
+    const basketStyle = document.querySelector('body .btn-hover');
+
+    btnHover.addEventListener('mouseover', () => {
+        //susirandame artimiausia tevini elementa div
+            basketStyle.classList.add('display');
+    });
+
+
 }
 
 export { renderHeaderEvents };
