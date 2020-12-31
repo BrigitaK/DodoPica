@@ -406,7 +406,7 @@ header {
 }
 .header-right-name1 {
     display: inline-block;
-    padding-right: 35px;
+    padding-right: 17px;
     color: #000;
 }
 .header-right-name2 {
@@ -421,12 +421,12 @@ header {
 }
 
 .one { 
-    margin-right: -110px;
+    margin-right: -117px;
     bottom: -7px;
     right: -20px;
 }
 .two { 
-margin-right: -110px;
+margin-right: -117px;
 bottom: -7px;
 right: -20px;
 }
@@ -436,7 +436,7 @@ right: -20px;
 }
 .hed-lines {
     font-size: 12px;
-    right: -16px;
+    right: -14px;
     position: relative;
 }
 
