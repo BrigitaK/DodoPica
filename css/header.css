@@ -273,8 +273,6 @@ header {
                                 height: 32px;
                                 opacity: 1;
                               }
-                              .close:hover {
-                              }
                               .close:before, .close:after {
                                 position: absolute;
                                 left: 15px;
@@ -292,7 +290,7 @@ header {
                               .basket{
                                 position: absolute;
                                 z-index: 10;
-                                display: inline-block;
+                                display: none;
                                 float: right;
                                 box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 25px;
                                 background-color: #fff;
@@ -304,6 +302,7 @@ header {
                                 margin-top: 40px;
                               }
                               .display > .basket {
+                                display: inline-block;
                               }
                               .basket img {
                                 text-align: center;
@@ -439,4 +438,188 @@ right: -20px;
     font-size: 12px;
     right: -16px;
     position: relative;
+}
+
+.men-delivery-time-hover {
+    display: none;
+    position: absolute;
+    background-color: #373535;
+    height: 160px;
+    width: 450px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: -165px;
+    margin-top: 8px;
+}
+.on .men-delivery-time-hover {
+    display: inline-block;
+}
+.men-delivery-time-hover h3 {
+    line-height: 1.4;
+    font-size: 22px;
+    font-weight: 400;
+}
+.men-delivery-time-par1 {
+    color: #c3c2c2;
+    font-size: 14px;
+}
+.men-delivery-time-left {
+    display: inline-block;
+    float: left;
+    width: 225px;
+    margin-top: 15px;
+    padding-left: 15px;
+
+}
+.men-delivery-time-right {
+    display: inline-block;
+    float: right; 
+    width: 225px;
+    padding-left: 5px;
+}
+.men-delivery-time-star {
+    color: #fcd233; 
+    margin-top: -3px;
+    line-height: 1.4;
+    font-size: 22px;
+}
+.men-delivery-time-star .fa {
+    margin-left: 5px;
+    height: 20px;
+    color: rgb(255, 210, 0);
+}
+.men-delivery-time-par {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 4px;
+}
+.men-delivery-time-bottom {
+    display: inline-block;
+    color: #c3c2c2;
+    font-size: 14px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.star-block {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: -18px;
+    margin-top: -4px;
+    background-color: #373535;
+    transform: rotate(45deg);
+  }
+/* Paspaudus prisijungti, prisijungimo blokas*/
+.men-btn-box-shadow {
+    display:none;
+    inset: 0px;
+    z-index:100;
+}
+.box-on .men-btn-box-shadow {
+    display:block;
+}
+.men-btn-box-shadow-b {
+    background: black;
+    inset: 0px;
+    position: fixed;
+    opacity: 0.55;
+}
+.men-btn-box-click {
+    position: fixed;
+    margin-top: 70px;
+    inset: 0px;
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 60px;
+}
+.men-btn-box-close {
+    position: absolute;
+    cursor: pointer;
+    opacity: 1;
+    top: 1%;
+    z-index: 1;
+    right: 172px;
+    width: 32px;
+    height: 32px;
+  }
+.men-btn-box-close:before, .men-btn-box-close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 3px;
+    border-radius:2px;
+    background-color: #fff;
+  }
+  .men-btn-box-close:before {
+    transform: rotate(45deg);
+  }
+  .men-btn-box-close:after {
+    transform: rotate(-45deg);
+  }
+  .men-btn-box-close-line1 {
+
+  }
+  .men-btn-box-close-line2 {
+
+  }
+.men-btn-box {
+    opacity: 1;
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    padding: 36px 48px;
+    width: 660px;
+    margin-left: calc(50% - 330px);
+    height: 360px;
+    background-color: #fff;
+}
+.men-btn-box-title {
+    display: inline-block;
+    margin: 0px 0px 35px;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+}
+.men-btn-box-number {
+    margin-bottom: 115px;
+    display: inline-block;
+    width: 100%;
+}
+.men-btn-box-number-left {
+    width: 165px;
+    display: inline-block;
+    float:left;
+    margin-top: 10px;
+}
+.men-btn-box-number-right {
+    display: inline-block;
+    width: 245px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(115, 121, 140, 0.32);
+    padding: 0px 15px;
+    line-height: 40px;
+    outline: none;
+}
+.men-btn-box-number-right:focus {
+    border: 1px solid red;
+}
+
+.men-btn-box-btn {
+    background-color: rgb(255, 105, 0);
+    color: rgb(255, 255, 255);
+    height: 48px;
+    border: transparent;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 200px;
+    bottom: 36px;
+    cursor: pointer;
+    border-radius: 25px;
 }

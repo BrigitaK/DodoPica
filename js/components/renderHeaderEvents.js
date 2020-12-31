@@ -50,7 +50,35 @@ burgerDOM.addEventListener('click', () => {
         //susirandame artimiausia tevini elementa div
             basketStyle.classList.add('display');
     });
+    btnHover.addEventListener('mouseout', () => {
+        //susirandame artimiausia tevini elementa div
+            basketStyle.classList.remove('display');
+    });
 
+    const starHover = document.querySelector('body .men-delivery-time');
+    const starH = document.querySelector('body .star-hover');
+
+    starHover.addEventListener('mouseover', () => {
+        //susirandame artimiausia tevini elementa div
+            starH.classList.add('on');
+    });
+    starHover.addEventListener('mouseout', () => {
+        //susirandame artimiausia tevini elementa div
+            starH.classList.remove('on');
+    });
+    const menBtn = document.querySelector('header .men-btn');
+    const menuDom = document.querySelector('main');
+    const boxOn = document.querySelector('body .men-btn-box-on');
+
+    menBtn.addEventListener('click', () => {
+        //susirandame artimiausia tevini elementa div
+            boxOn.classList.add('box-on');
+    });
+
+    menuDom.addEventListener('click', () => {
+        //susirandame artimiausia tevini elementa div
+            boxOn.classList.remove('box-on');
+    });
 
 }
 
