@@ -86,6 +86,17 @@ burgerDOM.addEventListener('click', () => {
             boxOn.classList.remove('box-on');
     })
 
+
+    //custom kai paspaudziame i button
+    const btni = document.querySelector('main .choose-item-title-i');
+    const plusi = document.querySelector('main .choose-item-title-block');
+
+
+    btni.addEventListener('click', () => {
+        //susirandame artimiausia tevini elementa div
+            plusi.classList.toggle('i-on');
+    });
+
 }
 
 export { renderHeaderEvents };
