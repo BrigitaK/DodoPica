@@ -67,18 +67,24 @@ burgerDOM.addEventListener('click', () => {
             starH.classList.remove('on');
     });
     const menBtn = document.querySelector('header .men-btn');
-    const menuDom = document.querySelector('main');
+    const menuBtnDom = document.querySelector('header .men-btn-box-shadow-b');
     const boxOn = document.querySelector('body .men-btn-box-on');
+    const closeBtn = document.querySelector('header .men-btn-box-close');
+
 
     menBtn.addEventListener('click', () => {
         //susirandame artimiausia tevini elementa div
             boxOn.classList.add('box-on');
     });
 
-    menuDom.addEventListener('click', () => {
+    menuBtnDom.addEventListener('click', () => {
         //susirandame artimiausia tevini elementa div
             boxOn.classList.remove('box-on');
     });
+    closeBtn.addEventListener('click', () => {
+        //susirandame artimiausia tevini elementa div
+            boxOn.classList.remove('box-on');
+    })
 
 }
 

@@ -514,7 +514,7 @@ right: -20px;
 .men-btn-box-shadow {
     display:none;
     inset: 0px;
-    z-index:100;
+    z-index:4;
 }
 .box-on .men-btn-box-shadow {
     display:block;
@@ -526,22 +526,22 @@ right: -20px;
     opacity: 0.55;
 }
 .men-btn-box-click {
-    position: fixed;
-    margin-top: 165px;
-    inset: 0px;
     opacity: 1;
     transform: scale(1);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 60px;
 }
 .men-btn-box-close {
     position: absolute;
     cursor: pointer;
     opacity: 1;
-    top: 1%;
+    margin-top: 1%;
     z-index: 1;
-    right: 250px;
+    margin-left: calc(50% - -335px);
     width: 32px;
     height: 32px;
+  }
+  .men-btn-box-close:hover {
+    width: 33px;
+    height: 33px;
   }
 .men-btn-box-close:before, .men-btn-box-close:after {
     position: absolute;
@@ -567,13 +567,17 @@ right: -20px;
 .men-btn-box {
     opacity: 1;
     border-radius: 20px;
-    display: inline-block;
+    display: none;
     position: absolute;
     padding: 36px 48px;
     width: 660px;
     margin-left: calc(50% - 330px);
     height: 360px;
     background-color: #fff;
+    z-index:5;
+}
+.box-on .men-btn-box {
+    display: inline-block;
 }
 .men-btn-box-title {
     display: inline-block;
