@@ -136,7 +136,7 @@
     transform: scale(1);
 }
 .choose-item .choose-items {
-    display: inline-block;
+    display: none;
     width: 924px;
     background-color: #fff;
     z-index: 610;
